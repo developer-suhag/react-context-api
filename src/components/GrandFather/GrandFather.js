@@ -9,7 +9,7 @@ const GrandFather = (props) => {
     <div>
       <h2>Grand Father</h2>
       <h4>House: {house}</h4>
-      <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "3fr 1fr 1fr" }}>
         <Father house={house}></Father>
         <Uncle></Uncle>
         <Aunty></Aunty>

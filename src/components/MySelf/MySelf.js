@@ -1,4 +1,5 @@
 import React from "react";
+import Specila from "../Special/Specila";
 
 const MySelf = (props) => {
   const { house } = props;
@@ -7,6 +8,7 @@ const MySelf = (props) => {
     <div>
       <h3>Suhag</h3>
       <p>House: {house}</p>
+      <Specila></Specila>
     </div>
   );
 };
